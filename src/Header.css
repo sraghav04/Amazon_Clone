@@ -13,10 +13,12 @@
   object-fit: contain;
   cursor: pointer;
 }
+
 .header_search {
   display: flex;
   align-items: center;
   flex: 1;
+  margin-right: 3px;
 }
 .header_searchIcon {
   background-color: #cd9042;
@@ -34,6 +36,9 @@
   color: white;
   text-decoration: none;
 }
+/* .header_link:hover {
+  border: 1px solid white;
+} */
 .header_nav {
   display: flex;
   align-items: center;
